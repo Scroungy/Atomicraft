@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "atomicraft",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Atomicraft",
+	"description": "Just some messing around...",
 	"authors": [
-		"Me!"
+		"Scroungy"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
+		"homepage": "",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/atomicraft/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.scroungy.Atomicraft"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.scroungy.AtomicraftClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"atomicraft.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "atomicraft.client.mixins.json",
 			"environment": "client"
 		}
 	],
